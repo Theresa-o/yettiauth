@@ -1,0 +1,17 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %} Yetti Authentication App {% endblock title %}</title>
+    <link href="{% static 'yettiuserauth/styles.css' %}" rel="stylesheet">
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+</head>
+<body class="container">
+{% block body %}{% endblock body %}
+</body>
+</html>
