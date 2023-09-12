@@ -1,7 +1,8 @@
 {% extends "yettiuserauth/layout.html" %}
 
 {% block body %}
-    <h1 class="center">Hello, World!</h1>
-
-    Want to Logout? <a href="{% url 'logout' %}">Log Out</a>
+    <div class="container">
+            <h1 class="text-center">Hello, World!</h1>
+            <p>Want to Logout? <a class="btn btn-danger" href="{% url 'logout' %}">Log Out</a></p>
+    </div>
 {% endblock %}
